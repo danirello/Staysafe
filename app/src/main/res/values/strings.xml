@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Staysafe</string>
+//-------------- ------CARGA-------------------------------------
+    <string name="texto_carga">STAY SAFE</string>
+    <string name="des_img_carga">logo</string>
+//---------------------LOGIN-------------------------------------
+    <string name="des_img">logo</string>
+
 </resources>
