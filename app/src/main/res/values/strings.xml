@@ -1,9 +1,12 @@
 <resources>
     <string name="app_name">Staysafe</string>
-//-------------- ------CARGA-------------------------------------
+    //-------------- ------CARGA-------------------------------------
     <string name="texto_carga">STAY SAFE</string>
     <string name="des_img_carga">logo</string>
-//---------------------LOGIN-------------------------------------
-    <string name="des_img">logo</string>
+    //---------------------LOGIN-------------------------------------
+    <string name="txtv_inicioS">Iniciar sesión</string>
+    <string name="input_user">Usuario</string>
+    <string name="input_pass">Contraseña</string>
+    <string name="btn_iniciar">Iniciar</string>
 
 </resources>
