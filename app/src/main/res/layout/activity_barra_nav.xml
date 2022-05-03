@@ -10,24 +10,28 @@
         android:id="@+id/frame_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layaout_behavior="@string/appbar_scrolling_view_behavior" />
+        android:layout_alignParentTop="true"
+        app:layaout_behavior="@string/appbar_scrolling_view_behavior">
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottom_navigation"
-        style="@style/BottomNav"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:elevation="8dp"
-        android:layaout_alignParenRight="true"
-        android:layaout_alignParentStart="true"
-        android:layaout_alignParentLeft="true"
-        android:layaout_alignParentBottom="true"
-        app:labelVisibilityMode="selected"
-        app:layaout_constrainLeft_toRight0f="parent"
-        app:layaout_constraintBottom_topBottom0f="parent"
-        app:layaout_constraintLeft_toleft0f="parent"
-        app:menu="@menu/bottom_navigation" />
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            style="@style/BottomNavigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="8dp"
+            android:layaout_alignParenRight="true"
+            android:layaout_alignParentStart="true"
+            android:layaout_alignParentLeft="true"
+            android:layaout_alignParentEnd="true"
+            android:layaout_alignParentBottom="true"
+            app:labelVisibilityMode="selected"
+            app:layaout_constrainLeft_toleft0f="parent"
+            app:layaout_constraintBottom_topBottom0f="parent"
+            app:layaout_constraintRight_toRightt0f="parent"
+            app:menu="@menu/bottom_navigation" />
 
+
+    </FrameLayout>
 
 
 </RelativeLayout>

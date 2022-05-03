@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
   <item
-      android:id="@+id/firstFragment"
+      android:id="@+id/Principal"
       android:icon="@android:drawable/ic_input_add"
       android:title="Primero"/>
 
     <item
-        android:id="@+id/secondFragment"
+        android:id="@+id/Configuraciones"
         android:icon="@android:drawable/ic_lock_idle_alarm"
         android:title="Segundo"/>
 
