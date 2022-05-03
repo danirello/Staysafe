@@ -10,17 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Staysafe">
         <activity
-            android:name=".barra_nav"
-            android:exported="false" />
-        <activity
+            android:theme="@style/splashScreen"
             android:name=".login"
-            android:exported="true"
-            android:theme="@style/splashScreen">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:exported="true">
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
         </activity>
 
         <meta-data
