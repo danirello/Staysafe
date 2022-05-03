@@ -10,15 +10,23 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Staysafe">
         <activity
-            android:theme="@style/splashScreen"
+            android:name=".configuraciones"
+            android:exported="false" />
+        <activity
+            android:name=".principal"
+            android:exported="false" />
+        <activity
+            android:name=".ejemplo"
+            android:exported="false" />
+        <activity
             android:name=".login"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/splashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
 
         <meta-data

@@ -18,5 +18,11 @@
             @drawable/splash_screen
         </item>
     </style>
+    <style name="textview" >
+        <item name="colorControlNormal">#FFEB3B</item>
+        <item name="colorControlActivated">#FFEB3B</item>
+        <item name="android:textColorHighlight">#FFEB3B</item>
+        <item name="android:gravity">center</item>
+    </style>
 
 </resources>

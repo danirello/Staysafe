@@ -8,5 +8,8 @@
     <string name="input_user">Usuario</string>
     <string name="input_pass">Contraseña</string>
     <string name="btn_iniciar">Iniciar</string>
+    <string name="hola">Hola</string>
+    //----------------------CONFIGURACIONES----------------------------
+    <string name="titulo_config">Configuraciones</string>
 
 </resources>

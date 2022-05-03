@@ -7,3 +7,9 @@ plugins {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+dependencies {
+
+    //implementation 'com.google.android.material:material:1.2.1'
+    //implementation 'com.android.support:design:27.+'
+}
