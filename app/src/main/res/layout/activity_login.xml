@@ -23,7 +23,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/txt_nombre"
         android:layout_width="310dp"
         android:layout_height="57dp"
         android:layout_marginTop="80dp"
@@ -40,7 +40,7 @@
 
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_iniciar"
         android:layout_width="313dp"
         android:layout_height="63dp"
         android:layout_marginTop="40dp"
@@ -60,7 +60,7 @@
         android:text="@string/input_user"
         android:textColor="@color/black"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/txt_nombre"
         app:layout_constraintStart_toStartOf="@+id/txtv_inicioSesion"
         app:layout_constraintTop_toBottomOf="@+id/txtv_inicioSesion" />
 
@@ -77,7 +77,7 @@
 
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/editTextTextPassword"
+            android:id="@+id/txt_pass"
             android:theme="@style/textview"
             android:layout_width="match_parent"
             android:textColorHint="@color/black"
@@ -103,6 +103,6 @@
         android:text="@string/input_pass"
         android:textColor="@color/black"
         android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintStart_toStartOf="@+id/txt_nombre"
+        app:layout_constraintTop_toBottomOf="@+id/txt_nombre" />
 </androidx.constraintlayout.widget.ConstraintLayout>
