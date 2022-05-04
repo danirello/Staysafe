@@ -2,12 +2,12 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
   <item
       android:id="@+id/Principal"
-      android:icon="@android:drawable/ic_input_add"
-      android:title="Primero"/>
+      android:icon="@drawable/home"
+      android:title="Inicio" />
 
-    <item
-        android:id="@+id/Configuraciones"
-        android:icon="@android:drawable/ic_lock_idle_alarm"
-        android:title="Segundo"/>
+  <item
+      android:id="@+id/Configuraciones"
+      android:icon="@drawable/engranaje"
+      android:title="Configuración" />
 
 </menu>

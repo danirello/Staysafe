@@ -3,7 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Staysafe/app/src/main/res/drawable/boton_principal.xml" value="0.1905" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Staysafe/app/src/main/res/layout/activity_barra_nav.xml" value="0.33" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Staysafe/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Staysafe/app/src/main/res/layout/fragment_configuraciones.xml" value="0.33" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Staysafe/app/src/main/res/layout/fragment_principal.xml" value="0.18085106382978725" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Staysafe/app/src/main/res/menu/bottom_navigation.xml" value="0.36615384615384616" />
         <entry key="..\:/Users/gohan/AndroidStudioProjects/Staysafe/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/zaul3/AndroidStudioProjects/Staysafe/app/src/main/res/drawable/boton_principal.xml" value="0.1925" />
         <entry key="..\:/Users/zaul3/AndroidStudioProjects/Staysafe/app/src/main/res/drawable/splash_screen.xml" value="0.1" />

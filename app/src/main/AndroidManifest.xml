@@ -17,7 +17,7 @@
         </activity>
 
         <activity
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:theme="@style/Theme.Staysafe"
             android:name=".barra_nav"
             android:exported="true">
 
