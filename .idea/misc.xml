@@ -15,10 +15,13 @@
         <entry key="..\:/Users/zaul3/AndroidStudioProjects/Staysafe/app/src/main/res/layout/activity_barra_nav.xml" value="0.18020833333333333" />
         <entry key="..\:/Users/zaul3/AndroidStudioProjects/Staysafe/app/src/main/res/layout/activity_configuraciones.xml" value="0.2234375" />
         <entry key="..\:/Users/zaul3/AndroidStudioProjects/Staysafe/app/src/main/res/layout/activity_ejemplo.xml" value="0.264" />
-        <entry key="..\:/Users/zaul3/AndroidStudioProjects/Staysafe/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/zaul3/AndroidStudioProjects/Staysafe/app/src/main/res/layout/activity_login.xml" value="0.33" />
         <entry key="..\:/Users/zaul3/AndroidStudioProjects/Staysafe/app/src/main/res/layout/activity_loginn.xml" value="0.14628623188405798" />
         <entry key="..\:/Users/zaul3/AndroidStudioProjects/Staysafe/app/src/main/res/layout/activity_main.xml" value="0.1802536231884058" />
         <entry key="..\:/Users/zaul3/AndroidStudioProjects/Staysafe/app/src/main/res/layout/activity_principal.xml" value="0.2234375" />
+        <entry key="..\:/Users/zaul3/AndroidStudioProjects/Staysafe/app/src/main/res/layout/activity_registro.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/zaul3/AndroidStudioProjects/Staysafe/app/src/main/res/layout/fragment_configuraciones.xml" value="0.5" />
+        <entry key="..\:/Users/zaul3/AndroidStudioProjects/Staysafe/app/src/main/res/layout/fragment_principal.xml" value="0.3197463768115942" />
         <entry key="..\:/Users/zaul3/AndroidStudioProjects/Staysafe/app/src/main/res/menu/bottom_navigation.xml" value="0.18020833333333333" />
       </map>
     </option>

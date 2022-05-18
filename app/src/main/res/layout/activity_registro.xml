@@ -7,19 +7,48 @@
     android:background="#E8E8E8"
     tools:context=".login">
 
+
+    <EditText
+        android:id="@+id/txt_correo"
+        android:layout_width="310dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="12dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:inputType="textPersonName"
+        android:paddingStart="15dp"
+        android:text=""
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/roboto_thin"
+        android:text="@string/titulo_correo"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtv_inicioSesion" />
+
     <TextView
         android:id="@+id/txtv_inicioSesion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="132dp"
+        android:layout_marginTop="60dp"
         android:fontFamily="@font/roboto_thin"
-        android:text="@string/txtv_inicioS"
+        android:text="@string/titulo_regis"
         android:textColor="#000000"
         android:textSize="34sp"
         android:textStyle="bold"
-        android:contentDescription="titulo"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.158"
+        app:layout_constraintHorizontal_bias="0.131"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -27,7 +56,7 @@
         android:id="@+id/txt_nombre"
         android:layout_width="310dp"
         android:layout_height="57dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="8dp"
         android:background="#FFFFFF"
         android:ems="10"
         android:fontFamily="sans-serif"
@@ -37,52 +66,45 @@
         android:textAlignment="viewStart"
         android:textColor="#000000"
         app:layout_constraintStart_toStartOf="@+id/textView3"
-        app:layout_constraintTop_toBottomOf="@+id/txtv_inicioSesion" />
-
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <Button
         android:id="@+id/btn_iniciar"
-        android:layout_width="313dp"
-        android:layout_height="63dp"
-        android:layout_marginTop="40dp"
+        android:layout_width="315dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="44dp"
         android:backgroundTint="#F44336"
-        android:text="@string/btn_iniciar"
+        android:text="@string/titulo_boton"
         app:cornerRadius="20dp"
         app:layout_constraintStart_toStartOf="@+id/textInputLayout2"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout2" />
 
-
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="41dp"
-        android:layout_marginBottom="12dp"
+        android:layout_width="92dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="16dp"
         android:fontFamily="@font/roboto_thin"
         android:text="@string/input_user"
         android:textColor="@color/black"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/txt_nombre"
-        app:layout_constraintStart_toStartOf="@+id/txtv_inicioSesion"
-        app:layout_constraintTop_toBottomOf="@+id/txtv_inicioSesion"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintStart_toStartOf="@+id/txt_correo"
+        app:layout_constraintTop_toBottomOf="@+id/txt_correo" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout2"
         android:layout_width="310dp"
         android:layout_height="69dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="44dp"
         app:layout_constraintStart_toStartOf="@+id/textView4"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/txt_nombre"
         app:passwordToggleEnabled="true"
         app:passwordToggleTint="@color/black">
 
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/txt_pass"
-            android:theme="@style/textview"
             android:layout_width="match_parent"
-            android:textColorHint="@color/black"
             android:layout_height="56dp"
             android:background="#FFFFFF"
             android:ems="10"
@@ -91,6 +113,8 @@
             android:singleLine="true"
             android:textAlignment="viewStart"
             android:textColor="#000000"
+            android:textColorHint="@color/black"
+            android:theme="@style/textview"
             app:passwordToggleEnabled="true"
             app:passwordToggleTint="@color/black" />
 
@@ -100,11 +124,12 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
         android:fontFamily="@font/roboto_thin"
         android:text="@string/input_pass"
         android:textColor="@color/black"
         android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textInputLayout2"
         app:layout_constraintStart_toStartOf="@+id/txt_nombre"
-        app:layout_constraintTop_toBottomOf="@+id/txt_nombre" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_nombre"
+        app:layout_constraintVertical_bias="1.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -29,6 +29,17 @@
             android:exported="true">
         </activity>
 
+        <activity
+            android:theme="@style/Theme.Staysafe"
+            android:name=".ejemplo"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:theme="@style/Theme.Staysafe"
+            android:name=".registro"
+            android:exported="true">
+        </activity>
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

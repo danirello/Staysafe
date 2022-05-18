@@ -61,6 +61,7 @@ public class login extends AppCompatActivity {
                 }
 
                 validar(res);
+                finish();
             }
         });
 
