@@ -4,21 +4,16 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Staysafe/app/src/main/res/drawable/boton_principal.xml" value="0.1905" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Staysafe/app/src/main/res/drawable/estado_boton.xml" value="0.335" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Staysafe/app/src/main/res/imgs/drawable/apagado.xml" value="0.321" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Staysafe/app/src/main/res/imgs/drawable/encendido.xml" value="0.321" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Staysafe/app/src/main/res/imgs/drawable/ic_unknown_azul.xml" value="0.321" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Staysafe/app/src/main/res/imgs/drawable/ic_unknown_rojo.xml" value="0.321" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Staysafe/app/src/main/res/imgs/drawable/power.xml" value="0.335" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Staysafe/app/src/main/res/layout/activity_barra_nav.xml" value="0.33" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Staysafe/app/src/main/res/layout/activity_login.xml" value="0.209375" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Staysafe/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Staysafe/app/src/main/res/layout/fragment_configuraciones.xml" value="0.33" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Staysafe/app/src/main/res/layout/fragment_principal.xml" value="0.33" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Staysafe/app/src/main/res/layout/fragment_principal.xml" value="0.18085106382978725" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Staysafe/app/src/main/res/menu/bottom_navigation.xml" value="0.36615384615384616" />
         <entry key="..\:/Users/gohan/AndroidStudioProjects/Staysafe/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/zaul3/AndroidStudioProjects/Staysafe/app/src/main/res/drawable/boton_principal.xml" value="0.1925" />
+        <entry key="..\:/Users/zaul3/AndroidStudioProjects/Staysafe/app/src/main/res/drawable/estado_boton.xml" value="0.1965" />
         <entry key="..\:/Users/zaul3/AndroidStudioProjects/Staysafe/app/src/main/res/drawable/splash_screen.xml" value="0.1" />
+        <entry key="..\:/Users/zaul3/AndroidStudioProjects/Staysafe/app/src/main/res/imgs/drawable/apagado.xml" value="0.1115" />
         <entry key="..\:/Users/zaul3/AndroidStudioProjects/Staysafe/app/src/main/res/layout/activity_barra_nav.xml" value="0.18020833333333333" />
         <entry key="..\:/Users/zaul3/AndroidStudioProjects/Staysafe/app/src/main/res/layout/activity_configuraciones.xml" value="0.2234375" />
         <entry key="..\:/Users/zaul3/AndroidStudioProjects/Staysafe/app/src/main/res/layout/activity_ejemplo.xml" value="0.264" />
@@ -28,7 +23,7 @@
         <entry key="..\:/Users/zaul3/AndroidStudioProjects/Staysafe/app/src/main/res/layout/activity_principal.xml" value="0.2234375" />
         <entry key="..\:/Users/zaul3/AndroidStudioProjects/Staysafe/app/src/main/res/layout/activity_registro.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/zaul3/AndroidStudioProjects/Staysafe/app/src/main/res/layout/fragment_configuraciones.xml" value="0.5" />
-        <entry key="..\:/Users/zaul3/AndroidStudioProjects/Staysafe/app/src/main/res/layout/fragment_principal.xml" value="0.3197463768115942" />
+        <entry key="..\:/Users/zaul3/AndroidStudioProjects/Staysafe/app/src/main/res/layout/fragment_principal.xml" value="0.2" />
         <entry key="..\:/Users/zaul3/AndroidStudioProjects/Staysafe/app/src/main/res/menu/bottom_navigation.xml" value="0.18020833333333333" />
       </map>
     </option>

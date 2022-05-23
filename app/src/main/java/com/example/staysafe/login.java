@@ -6,7 +6,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -43,7 +42,7 @@ public class login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        final Button btn_ingresar = findViewById(R.id.btn_iniciar);
+        final Button btn_ingresar = findViewById(R.id.btn_inicio);
         final EditText txt_nombre = findViewById(R.id.txt_nombre);
         final EditText txt_contra = findViewById(R.id.txt_pass);
 
@@ -51,7 +50,7 @@ public class login extends AppCompatActivity {
             public void onClick(View v) {
                 String nombre = txt_nombre.getText().toString();
                 String contra = txt_contra.getText().toString();
-                new Enlace(login.this).execute(nombre, contra);
+
                 try {
                     res = new Enlace(login.this).execute(nombre, contra).get();
                 } catch (ExecutionException e) {
@@ -69,8 +68,6 @@ public class login extends AppCompatActivity {
     }
 
     protected void validar(String resultado){
-
-        Toast.makeText(this, resultado,Toast.LENGTH_LONG).show();
 
         if (resultado.equals("1")) {
             Toast.makeText(this, "Bienvenido",Toast.LENGTH_LONG).show();

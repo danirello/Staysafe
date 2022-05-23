@@ -69,12 +69,12 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <Button
-        android:id="@+id/btn_iniciar"
+        android:id="@+id/btn_registrar"
         android:layout_width="315dp"
         android:layout_height="67dp"
         android:layout_marginTop="44dp"
         android:backgroundTint="#F44336"
-        android:text="@string/titulo_boton"
+        android:text="@string/titulo_regis"
         app:cornerRadius="20dp"
         app:layout_constraintStart_toStartOf="@+id/textInputLayout2"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout2" />
